@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #0f172a;
+    background-color: var(--bg-color-primary);
 }
 
 main {
@@ -27,13 +27,13 @@ main {
 header {
     margin-top: 40px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #334155;
+    border-bottom: 1px solid var(--bg-color-segundary);
 }
 
 header h1 {
     margin-top: 24px;
     font-size: 30px;
-    color: #f1f5f9;
+    color: var(--txt-color-primary);
 }
 
 #quiz {
@@ -42,7 +42,7 @@ header h1 {
 
 .quiz-item {
     margin-top: 24px;
-    border: 1px solid #475569;
+    border: 1px solid var(--bg-color-segundary);
     border-radius: 6px;
 
     overflow: hidden;
@@ -50,20 +50,20 @@ header h1 {
 
 .quiz-item h3 {
     padding: 16px 20px;
-    color: #e2e8f0;
+    color: var(--txt-color-segundary);
 
     display: flex;
     align-items: center;
     gap: 12px;
 
-    background-color: #1e293b;
+    background-color: var(--bg-color-segundary);
 }
 
 .quiz-item h3:before {
     counter-increment: quiz-item;
     content: counter(quiz-item);
 
-    background-color: #475569;
+    background-color: var(--bg-color-primary);
     width: 28px;
     height: 28px;
     font-size: 12px;
@@ -91,12 +91,12 @@ header h1 {
     align-items: center;
     gap: 8px;
 
-    color: #e2e8f0;
+    color: var(--txt-color-segundary);
 }
 
 input {
     all: unset;
-    border: 1px solid #94a3b8;
+    border: 1px solid var(--bg-color-segundary);
     width: 16px;
     height: 16px;
 
@@ -109,7 +109,7 @@ input {
 }
 
 input:checked {
-    border: 1px solid #a3e635;
+    border: 1px solid var(--detail-color);
 }
 
 input:checked:before {
@@ -117,13 +117,13 @@ input:checked:before {
     width: 10px;
     height: 10px;
 
-    background-color: #a3e635;
+    background-color: var(--detail-color);
     border-radius: 50%;
 }
 
 #acertos {
     text-align: center;
-    background-color: #a3e635;
+    background-color: var(--detail-color);
 
     position: fixed;
     bottom: 0;
@@ -131,4 +131,6 @@ input:checked:before {
 
     width: 100%;
     padding: 12px;
+
+    color: var(--txt-color-segundary);
 }
