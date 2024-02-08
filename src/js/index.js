@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: "Qual é o significado de 'Karate-Do'?",
+        pergunta: "O que é um desenvolvedor front-end?",
         respostas: [
-            "Caminho da mão vazia",
-            "Caminho do guerreiro",
-            "Caminho da mente tranquila",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Quem é o fundador do Karatê Shotokan?",
-        respostas: [
-            "Gichin Funakoshi",
-            "Mas Oyama",
-            "Hironori Ohtsuka",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o principal objetivo do Karatê Shotokan?",
-        respostas: [
-            "Ganhar competições",
-            "Desenvolver o espírito de luta",
-            "Autodefesa e aprimoramento pessoal",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Em que país o Karatê Shotokan foi desenvolvido?",
-        respostas: [
-            "China",
-            "Japão",
-            "Coreia",
+            "Um desenvolvedor que trabalha na parte do servidor de um aplicativo",
+            "Um desenvolvedor que trabalha na interface do usuário de um aplicativo",
+            "Um desenvolvedor que trabalha na segurança de um aplicativo",
         ],
         correta: 1
     },
     {
-        pergunta: "Qual é a característica distintiva do Karatê Shotokan?",
+        pergunta: "Qual linguagem de marcação é fundamental para um desenvolvedor front-end?",
         respostas: [
-            "Uso extensivo de chutes altos",
-            "Uso predominante de técnicas de projeção",
-            "Posturas profundas e movimentos poderosos",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "O que é um kata no contexto do Karatê Shotokan?",
-        respostas: [
-            "Uma competição de sparring",
-            "Uma forma pré-arranjada de movimentos",
-            "Uma técnica de meditação",
+            "Java",
+            "HTML",
+            "Python",
         ],
         correta: 1
     },
     {
-        pergunta: "Quais são os princípios fundamentais do Karatê Shotokan?",
+        pergunta: "Qual é a principal função do CSS para um desenvolvedor front-end?",
         respostas: [
-            "Força e agressão",
-            "Velocidade e flexibilidade",
-            "Postura, respiração e concentração",
+            "Manipulação de banco de dados",
+            "Estilização e formatação de elementos HTML",
+            "Lógica de programação",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual linguagem de programação é frequentemente utilizada para interatividade do lado do cliente em desenvolvimento front-end?",
+        respostas: [
+            "Ruby",
+            "JavaScript",
+            "C++",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a função do framework React no desenvolvimento front-end?",
+        respostas: [
+            "Gerenciamento de banco de dados",
+            "Criação de interfaces de usuário interativas",
+            "Análise de dados",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "O que significa a sigla 'UI' no contexto do desenvolvimento front-end?",
+        respostas: [
+            "União Internacional",
+            "Interface de Usuário",
+            "Instruções Universais",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a função do Bootstrap no desenvolvimento front-end?",
+        respostas: [
+            "Animação de elementos HTML",
+            "Padronização de código JavaScript",
+            "Facilitar o desenvolvimento de interfaces responsivas",
         ],
         correta: 2
     },
     {
-        pergunta: "Qual é o nome dado ao grito emitido durante um golpe no Karatê Shotokan?",
+        pergunta: "Qual ferramenta é usada para o controle de versão de código no desenvolvimento front-end?",
         respostas: [
-            "Kiai",
-            "Kumite",
-            "Sensei",
+            "Git",
+            "Apache",
+            "Node.js",
         ],
         correta: 0
     },
     {
-        pergunta: "O que é um dojo no contexto do Karatê Shotokan?",
+        pergunta: "O que é um 'bug' no contexto do desenvolvimento front-end?",
         respostas: [
-            "Um torneio de artes marciais",
-            "Uma técnica de defesa pessoal",
-            "Um local de treinamento",
+            "Um inseto presente no código fonte",
+            "Uma falha no sistema operacional",
+            "Um problema ou erro no código de um programa",
         ],
         correta: 2
     },
     {
-        pergunta: "Qual é o símbolo do Karatê Shotokan?",
+        pergunta: "Qual é a importância da acessibilidade no desenvolvimento front-end?",
         respostas: [
-            "Dragão",
-            "Tigre",
-            "Grifo",
+            "Não tem importância",
+            "É importante apenas para alguns tipos específicos de aplicativos",
+            "É importante para garantir que todos os usuários possam acessar e usar um aplicativo",
         ],
-        correta: 1
+        correta: 2
     },
 ];
+
 
 const quiz = document.querySelector('#quiz');
 const template = document.querySelector('template');
